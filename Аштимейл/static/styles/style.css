@@ -1,0 +1,198 @@
+span {font-style: italic;
+	background-color: black;
+	color: whitesmoke;
+}
+body{
+	background: #ff1f00;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #ffb800,	#ff7500, #ff1f00);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #ffb800, #ff7500,  #ff1f00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.imgsize{
+	display: block;
+ 	margin-top: 38px;
+	margin-left: 215px;
+	width: 50px;
+	height: 50px;
+}
+.up {
+	position: absolute;
+	left: 290px;
+	top: 20px;
+	font-weight: 700px;
+	font-size: 25px;
+	font-family: Comic Sans, cursive;
+	color: black;
+}
+.head1 {
+	position: absolute;
+	left: 215px;
+	top: 200px;
+	font-size: 60px;
+	font-family: Comic Sans, cursive;
+	line-height: 82%;
+	color: black;
+}
+.j {
+	position: absolute;;
+	top: -50px;
+}
+.k {
+	position: absolute;
+	left: 215px;
+	top: 340px;
+	font-size: 25px;
+	font-family: Comic Sans, cursive;
+	line-height: 82%;
+	color: black;
+}
+.a {
+	position: absolute;
+	top: -20px;
+}
+.container {
+  display: flex;
+  gap: 20px;
+}
+.rectangle-1 {
+	 box-shadow: 5px 5px 50px 1px #FF0000;
+	background: #FF7A00;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to bottom, #FF0000, #FF7A00);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to bottom, #FF0000, #FF7A00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 59px;
+  width: 176px;
+  border-radius: 80px;
+  position: absolute;
+  left: 215px;
+  top: 390px;
+}
+.text {
+	position: absolute;
+	left: 240px;
+	top: 413px;
+	font-size: 15px;
+	font-family: Comic Sans, cursive;
+	line-height: 82%;
+	color: WHITE;
+	font-weight: 500;
+}
+.Main {
+	position: absolute;
+	left: 500px;
+	top: 53px;
+	font-size: 15px;
+	font-family: Comic Sans, cursive;
+	line-height: 82%;
+	color: black;
+	font-weight: 700;
+}
+.container1 {
+  display: flex;
+  gap: 10px;
+  position: relative;
+}
+.rectangle-2 {
+	background: black;
+	height:  1px;
+  	width: 65px;
+  	position: absolute;
+  	left: 492px;
+  	top: -20px;
+  	opacity: 0.4;
+}
+.class {
+	position: absolute;
+	left: 598px;
+	top: 53px;
+	font-size: 15px;
+	font-family: Comic Sans, cursive;
+	line-height: 82%;
+	color: black;
+	font-weight: 500;
+}
+.lol {
+	position: absolute;
+	left: 696px;
+	top: 53px;
+	font-size: 15px;
+	font-family: Comic Sans, cursive;
+	line-height: 82%;
+	color: black;
+	font-weight: 500;
+}
+.contact {
+	position: absolute;
+	left: 796px;
+	top: 53px;
+	font-size: 15px;
+	font-family: Comic Sans, cursive;
+	line-height: 82%;
+	color: black;
+	font-weight: 500;
+}
+.c {
+	display: flex;
+  gap: 20px;
+}
+.button {
+	background: #D9D9D9;
+	height: 49px;
+  	width: 200px;
+  	border-radius: 80px;
+  	position: absolute;
+  	left: 950px;
+  	top: 36px;
+	font-size: 15px;	
+	font-family: Comic Sans, cursive;
+	line-height: 82%;
+	color: black;
+	border: none;
+	font-weight: 500;
+	cursor: pointer;
+	transform: transform 0.2s ease;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+.button:active {
+	transform: scale(0.96);
+}
+.box {
+	width: 300px;
+	height: 410px;
+	border-radius: 50px;
+  	position: absolute;
+  	left: 860px;
+  	top: 130px;
+}
+.img1 {
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.img1 img {
+        height: 100%;
+        width: auto;
+}
+@font-face {
+  font-family: "JostExtraBold", sans-serif;
+  src: local("JostExtraBold")
+  	url("C:\Users\Гульзада\Desktop\Аштимейл\fonts\Jost-ExtraBold.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+} 
+.judson-regular {
+  font-family: "RegularJ", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.judson-bold {
+  font-family: "BJ", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.judson-extra-bold {
+  font-family: "EBJ", serif;
+  font-weight: 800;
+  font-style: normal;
+}
